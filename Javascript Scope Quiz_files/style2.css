@@ -1,0 +1,222 @@
+body {
+background:#0a171b;
+  background-image:url('./hacking.jpg');
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  margin: 0; }
+
+#header {
+  background-color: #eeeeee;
+  border-bottom: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0 0 30px 0;
+  
+  padding-left: 50px;
+  line-height: 60px;
+  vertical-align: middle; 
+  
+ font-size: 2em ;
+ font-weight: bold;
+ background: rgba(0,192,255,0.05);color: #a7feff;
+ text-shadow: 0 0 4px #abfeff;
+  }
+
+#shareButtons {
+  float: right;
+  margin: 0px 0;
+  padding-right:100px;
+  }
+#avatar
+{
+ width:70px;
+height:60px;
+background-color:white;
+-webkit-mask-image:url('./../avatar/root.png');
+
+}
+
+input[type='text']
+{
+font-size:1.2em;
+background-color:#abfeff;
+border:2px solid green;
+}
+
+input[type='text']:focus
+{
+background-color:transparent;
+border: 2px solid red;
+font-family: "Inconsolata", sans-serif;
+ font-size: 1.2em; 
+ color:green;
+}
+
+#avatartxt
+{
+color:white;
+}
+
+h1 {
+  text-align: right;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3); }
+
+#main {
+  margin: 4% 30px; }
+
+#sidebar {
+  float: right;
+  width: 28%;
+  min-width: 250px; 
+  
+  position: relative;
+  box-shadow:  #a7feff 10px 10px 10px 0;
+ 
+  }
+
+#content {
+  float: left;
+  width: 40%;
+  min-width: 500px;
+  background-color: #f5f5f5 ;
+  padding: 20px 40px;
+  box-shadow:  #a7feff 10px 10px 10px 0;
+  text-align: justify;
+  border-radius: 20px;
+    }
+	
+#content2 {
+  float: right;
+  width: 40%;
+  min-width: 500px;
+  background-color: #f5f5f5 ;
+  padding: 20px 40px;
+  box-shadow:  #a7feff -10px -10px 10px 0;
+  text-align: justify;
+  border-radius: 20px;
+  }
+
+.code, code {
+  font-family: "Inconsolata", sans-serif;
+  font-size: 1.2em; }
+
+code {
+  margin: 10px;
+  padding: 10px 30px;
+  background-color: #f5f5f5;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 0 20px 0;
+  border: 1px solid white; }
+
+label {
+  padding-left: 5px; }
+
+p {
+  padding: 0px 20px;
+  font-size: 1.2em;
+  line-height: 160%; }
+
+#questionForm {
+  font-size: 1.3em;
+  line-height: 150%;
+  padding-left: 30px; }
+
+#logoDiv {
+  clear: both;
+  text-align: center; }
+
+#logoDiv img {
+  margin: 40px; }
+
+#progressBar {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 20px 20px 0 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid white; }
+
+.progress, #correct, #wrong {
+  font-size: 4em;
+  font-weight: bold;
+  padding: 0 20px;
+  margin: 0 20px; }
+
+#correct {
+  color: green; }
+
+#wrong {
+  color: red; }
+
+#navigation {
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 30px 0;
+  border-radius: 20px 20px 0 0; }
+
+#navigation ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+#navigation li {
+  padding: 10px 28px;
+  font-size: 1.1em;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  background-repeat: no-repeat;
+  background-position: 5px 13px;
+  cursor: pointer; }
+
+#navigation li.correct {
+  background-image: url(./correct.png); }
+
+#navigation li.wrong {
+  background-image: url(./wrong.png); }
+
+#navigation li.information {
+  background-image: url(./information.png); }
+
+#navigation li.current {
+  background-image: url(./current.png);
+  background-color: rgba(255, 255, 0, 0.25); 
+  border:2px green;}
+
+#navigation #locked li {
+  background-image: url(./locked.png);
+  background-color: rgba(0, 0, 0, 0.04);
+  color: #444444;
+  cursor: default; }
+
+#opened {
+  box-shadow: rgba(0, 0, 0, 0.3) 0 1px 10px 0; }
+
+#ansCorrect, #ansIncorrect {
+  background-repeat: no-repeat;
+  background-position-y: 5px;
+  background-position-x: 5px;
+  padding-left: 24px;
+  margin-left: 14px; }
+
+#ansCorrect {
+  background-image: url(./correct.png); }
+
+#ansIncorrect {
+  background-image: url(./wrong.png); }
+
+.ui-button .ui-button-text {
+  line-height: 1;
+  font-size: 1em;
+  padding: 0.3em 1em; 
+  background-color:black;
+  color:white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 10px 0;
+  }
+
+a img {
+  border: none; }
+#footer
+{
+background-color:black;
+width:100%;
+height:40px;
+}
+
+
+}
