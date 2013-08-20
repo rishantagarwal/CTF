@@ -1,0 +1,26 @@
+<?php
+if(isset($_POST['flag']))
+{
+echo 'hello';
+if($_POST["pass"]=="images_can't_be_text")
+	{
+	header('Location:q12.php');
+	}
+	else
+	{
+	header('Location:q11.php');
+	}
+}	
+	
+
+
+?>
+
+<html>
+<body>
+<a href="./flag.txt" target="_blank" >flag</a> 
+		<form action="index.php"  method="post">
+		FLAG: <input type="password" name="pass"> </input>
+		<input type="submit" value="Submit" name="flag"> </input>
+		</form>
+</body></html>
